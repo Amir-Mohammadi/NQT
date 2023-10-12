@@ -1,7 +1,6 @@
 #ifndef NQORM_H
 #define NQORM_H
 
-
 class NQOrm
 {
 public:

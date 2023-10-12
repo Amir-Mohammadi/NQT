@@ -1,4 +1,4 @@
-#include "nqorm.h"
+#include "../Headers/nqorm.h"
 
 NQOrm::NQOrm()
 {

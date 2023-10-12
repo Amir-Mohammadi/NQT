@@ -33,7 +33,6 @@ IF not exist "%extractTo%" (
 
 echo Please Wait to Extract ...
 
-
 IF EXIST "%clusterdb%" (
     echo clusterdb has exist.
 ) ELSE (
@@ -57,8 +56,5 @@ CALL pg_ctl.exe restart -D  "C:\pgsql\data"
 
 echo ===============================================
 
-
-
 echo All Process Done Successfuly!  
 @pause
-
